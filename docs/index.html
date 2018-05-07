@@ -1,0 +1,153 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>	
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="icomoon/style.css">
+		<title>lokaverkefni</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<svg class="icon icon-zendesk"><use xlink:href="#icon-zendesk"></use></svg>
+		</header>
+
+		<nav class="container">
+			<ul>
+				<li><a href="#article">Dagskrá</a></li>
+				<li><a href="#haegriaside">Upplýsingar um flytjendur</a></li>
+				<li><a href="#vinstriaside">Skráningarform</a></li>
+				<li><a href="#footer">Upplýsingar um Z</a></li>
+			</ul>
+		</nav>
+
+		<section>
+			<article id="article">
+				<table>
+					<caption>Dagskrá</caption>
+				<thead>
+  				<tr>
+	  				<th>Flytjandi</th>
+				    <th>Dagsetning</th>
+				    <th>Lengd</th>
+				    <th>Staðsetning</th>
+  				</tr>
+  			</thead>
+  			<tbody>
+  			<tr>
+  				<td>Jón Jónsson</td>
+  				<td>2018-06-21 17:00</td>
+  				<td>3 klukkutimar</td>
+  				<td>Harpa</td>>
+  			</tr>
+  			<tr>
+  				<td>Friðrik Dór</td>
+  				<td>2018-06-21 19:00</td>
+  				<td>3 klukkutimar</td>
+  				<td>Harpa</td>
+  			</tr>
+  			<tr>
+  				<td>Aron Can</td>
+  				<td>2018-06-21 21:00</td>
+  				<td>3 klukkutimar</td>
+  				<td>Harpa</td>
+  			</tr>
+  			</tbody>
+  			</table>
+			</article>
+
+			<aside id="vinstriaside" class="vinstri">
+				<form>
+				<fieldset>
+					<legend>Skráning á tónleika</legend>
+				<label>Nafn - </label>
+				<input type="text" name="nafn" placeholder="Full name" required>
+				<br> <br>
+				<label>Netfáng - </label>
+				<input type="email" name="netfang" placeholder="Email address" required>
+				<br><br>
+				<label>Símanúmer - </label>
+				<input type="tel" name="simi" placeholder="Telephone number">
+				<br><br>
+				<label>Persónur - </label>
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+				<br><br>
+				<label>Aldur - </label>
+				<input type="radio" name="aldur" value="0-8" checked> 0-8
+				<input type="radio" name="aldur" value="9-17"> 9-17
+				<input type="radio" name="aldur" value="18+"> 18+
+				<br><br>
+				<label>Athugasemdir - </label>
+				<textarea rows="4" cols="50" placeholder="Skrifaðu athugasemd"></textarea>
+				<br><br>
+				<input type="submit" name="submit" value="Panta">
+				</fieldset>
+			</form>
+			</aside>
+
+			<aside id="haegriaside" class="haegri">
+				<h3>Upplýsingar um flytjendur</h3>
+				<h4>Jón Jónsson</h4>
+				<p>Jón Jónsson er íslenskur pop tónlistamaður og fyrrverandi fótboltamaður. Bróðir hans, Friðrik Dór er pop söngvari.</p>
+				<p>Lagalisti:</p>
+				<p>Lost</p>
+				<p>Þegar ég sá þig fyrst</p>
+				<p>All, You, I</p>
+				<audio controls>
+         			 <source src="music/lost.mp3" type="audio/mpeg">
+       			</audio>
+				<h4>Friðrik Dór</h4>
+				<p>Friðrik Dór er íslenskur R&B og popp-söngvari og lagahöfundur.</p>
+				<p>Lagalisti:</p>
+				<p>Alveg sama</p>
+				<p>I Don't Wanna Be in Love No More</p>
+				<p>Fullorðins</p>
+				<audio controls>
+         			 <source src="music/alvegsama.mp3" type="audio/mpeg">
+       			</audio>
+				<h4>Aron Can</h4>
+				<p>Aron Can er íslenskur tónlistamaður fæddur árið 1999. Hann byrjaði að semja tónlist þegar hann var 10 ára gamall.</p>
+				<p>Lagalisti:</p>
+				<p>Aldrei Heim</p>
+				<p>Enginn Mórall</p>
+				<p>Joey Cypher</p>
+				<audio controls>
+         			 <source src="music/aldreiheim.mp3" type="audio/mpeg">
+       			</audio>
+			</aside>
+		</section>
+		
+		<footer id="footer" class="footer">
+			<h1>Hverjir eru Z?</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non eros semper, iaculis dolor nec, blandit elit. Vestibulum tincidunt purus id eleifend rhoncus. Sed a ligula at lectus fringilla fringilla. Vestibulum vestibulum mauris justo, pulvinar vulputate eros vulputate et. Pellentesque at porttitor ex. Fusce feugiat ut leo ut cursus. Nulla id arcu placerat, fermentum nunc vel, fermentum nulla. Morbi feugiat mauris et libero bibendum, faucibus tincidunt leo rutrum. Quisque semper dapibus nibh, eget consectetur lectus suscipit sit amet. Phasellus finibus eros nisi, et condimentum diam imperdiet eu. Pellentesque et erat bibendum, rhoncus nisl ac, fringilla dui. Suspendisse nec erat metus.</p>
+			<h1>Hvað gerir Z?</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non eros semper, iaculis dolor nec, blandit elit. Vestibulum tincidunt purus id eleifend rhoncus. Sed a ligula at lectus fringilla fringilla. Vestibulum vestibulum mauris justo, pulvinar vulputate eros vulputate et. Pellentesque at porttitor ex. Fusce feugiat ut leo ut cursus. Nulla id arcu placerat, fermentum nunc vel, fermentum nulla. Morbi feugiat mauris et libero bibendum, faucibus tincidunt leo rutrum. Quisque semper dapibus nibh, eget consectetur lectus suscipit sit amet. Phasellus finibus eros nisi, et condimentum diam imperdiet eu. Pellentesque et erat bibendum, rhoncus nisl ac, fringilla dui. Suspendisse nec erat metus.</p>
+			<h1>Hvar er Z?</h1>
+			<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1739.597151646502!2d-21.93505901929224!3d64.15047722261365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d674d3019cb491%3A0xa813064fd5697156!2sHarpa!5e0!3m2!1sis!2sis!4v1525700470639" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			
+		</footer>
+  	</body>
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-zendesk" viewBox="0 0 32 32">
+<title>zendesk</title>
+<path d="M14.78 28.127h-14.78l14.78-17.844v17.844zM32 28.127h-14.78c0-4.084 3.305-7.391 7.391-7.391 4.084 0 7.389 3.309 7.389 7.391zM17.22 21.721v-17.848h14.78l-14.78 17.848zM14.78 3.873c0 4.081-3.308 7.392-7.391 7.392-4.080 0-7.389-3.308-7.389-7.389l14.78-0.003z"></path>
+</symbol>
+</defs>
+</svg>
+</html>
+
+
+
+
+
+
+

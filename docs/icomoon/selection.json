@@ -1,0 +1,68 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M472.96 900.053h-472.96l472.96-571.008v571.008zM1024 900.053h-472.96c0-130.688 105.771-236.501 236.501-236.501 130.688 0 236.459 105.899 236.459 236.501zM551.040 695.083v-571.136h472.96l-472.96 571.136zM472.96 123.947c0 130.603-105.856 236.544-236.501 236.544-130.56 0-236.459-105.856-236.459-236.459l472.96-0.085z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "zendesk"
+        ],
+        "grid": 0
+      },
+      "attrs": [],
+      "properties": {
+        "id": 399,
+        "order": 10,
+        "prevSize": 32,
+        "name": "zendesk"
+      },
+      "setIdx": 2,
+      "setId": 6,
+      "iconIdx": 398
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "autoHost": false,
+      "showSelector": true,
+      "showMetrics": true
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "ODYxY2YzMzQ1ZDdkMjQ1MjBlNGY2MzRhZmRjZGMyZTEjMSMxNTE5NjUyMjQ5IyMj"
+    },
+    "showLiga": false
+  }
+}

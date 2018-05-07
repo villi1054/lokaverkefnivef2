@@ -1,0 +1,29 @@
+@mixin navbar($b: $color){
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(255, 167, 61,0.7);
+	text-align:center;
+}
+
+nav{
+	ul{
+		@include navbar(#333);
+
+		li{
+			float:left;
+			a{
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 0.5em;
+				text-decoration: none;
+			}
+
+			&:hover{
+				background-color: #666;
+			}
+		}
+	}
+}
