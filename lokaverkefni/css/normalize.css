@@ -1,34 +1,37 @@
 body {
   display: grid;
   grid-template-areas: "header" "nav" "section" "footer";
-  grid-template-rows: 8em 6em 35em 15em;
+  grid-template-rows: 8em 6em 120em 15em;
   grid-template-columns: 1fr;
   background-color: black; }
 
 section {
   display: grid;
-  grid-template-areas: "vinstriaside article haegriaside";
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 3fr 1fr; }
+  grid-template-areas: "article" "haegriaside" "vinstriaside";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr; }
 
 .vinstri {
   grid-area: vinstriaside;
   background-color: black;
-  border: 1px white solid;
+  color: white;
+  text-align: center;
+  margin-left: 38em;
   padding: 1em;
-  height: 30em; }
+  height: 30em;
+  width: 2em; }
 
 .haegri {
   grid-area: haegriaside;
   background-color: black;
-  border: 1px white solid;
+  color: white;
   padding: 1em;
-  height: 30em; }
+  height: 30em;
+  text-align: center; }
 
 article {
   grid-area: article;
   background-color: black;
-  border: 1px black solid;
   padding: 1em;
   color: white;
   font-family: Arial; }
@@ -42,7 +45,6 @@ header {
 
 .footer {
   font-family: Arial;
-  border: 1px solid white;
   text-align: center;
   color: white;
   margin: auto; }
@@ -84,10 +86,10 @@ td:before {
   font-weight: bold; }
 
 tbody tr:nth-child(even) {
-  background-color: #444; }
+  background-color: #333; }
 
 tbody tr:nth-child(odd) {
-  background-color: #333; }
+  background-color: #222; }
 
 td:nth-of-type(1):before {
   content: "Flytjandi"; }
@@ -98,12 +100,15 @@ td:nth-of-type(2):before {
 td:nth-of-type(3):before {
   content: "Lengd"; }
 
+td:nth-of-type(4):before {
+  content: "Stadsetning"; }
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(93, 187, 120, 0.7);
+  background-color: rgba(255, 167, 61, 0.7);
   text-align: center; }
   nav ul li {
     float: left; }
@@ -115,5 +120,18 @@ nav ul {
       text-decoration: none; }
     nav ul li:hover {
       background-color: #666; }
+
+@media screen and (max-width: 60em) {
+  body {
+    display: grid;
+    grid-template-areas: "header" "nav" "section" "footer";
+    grid-template-rows: 8em 6em 120em 25em;
+    grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 60em) {
+  section {
+    grid-template-areas: "article" "haegriaside" "vinstriaside";
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr; } }
 
 /*# sourceMappingURL=normalize.css.map */
